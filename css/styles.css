@@ -180,6 +180,10 @@ header .container {
 .we-do .container {
   padding: 94px 0px;
 }
+.we-do .section-title {
+  margin-bottom: 50px;
+}
+
 .pictures {
   display: flex;
 }
