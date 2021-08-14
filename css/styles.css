@@ -5,6 +5,13 @@
   --hero-title-color: #fff;
   --hero-fon-color: #2f303a;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /* Header */
 header {
   background-color: var(--hero-title-color);
@@ -329,19 +336,18 @@ header .container {
 .button-item + .button-item {
   margin-left: 8px;
 }
+.flex-section {
+  padding-bottom: 94px;
+}
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 94px;
 }
 .flex-element {
   width: calc ((100%-60px)/3);
   margin-right: 30px;
   margin-bottom: 30px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
 }
 .flex-element:nth-child(3n) {
   margin-right: 0px;
@@ -354,6 +360,8 @@ header .container {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 /* Footer */
