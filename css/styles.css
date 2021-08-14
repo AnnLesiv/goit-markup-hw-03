@@ -208,6 +208,9 @@ header .container {
 .container-comand {
   padding: 94px 0px;
 }
+.comand .section-title {
+  margin-bottom: 50px;
+}
 .comand .list {
   display: flex;
 }
@@ -223,6 +226,7 @@ header .container {
 }
 .comand .imeges {
   width: 270px;
+  border-radius: 0px 0px 4px 4px;
 }
 .down {
   padding-top: 30px;
@@ -330,9 +334,16 @@ header .container {
 .flex-element {
   width: calc ((100%-60px)/3);
   margin-right: 30px;
+  margin-bottom: 30px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .flex-element:nth-child(3n) {
   margin-right: 0px;
+}
+.flex-element:nth-child(n + 7) {
+  margin-bottom: 0px;
 }
 .img-down {
   padding-top: 20px;
