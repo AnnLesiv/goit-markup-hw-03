@@ -240,6 +240,7 @@ header .container {
   border-radius: 0px 0px 4px 4px;
 }
 .down {
+  background-color: var(--hero-title-color);
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 20px;
@@ -361,7 +362,9 @@ header .container {
   padding-left: 24px;
   padding-right: 24px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 /* Footer */
